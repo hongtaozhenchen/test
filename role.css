@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Microsft Yahei;
+}
+body{
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+}
+.top{
+    position: fixed;
+    top: 16px;
+    left: 0px;
+    width: 100%;
+    min-width: 1024px;
+    z-index: 1000;
+    font-size: 18px;
+}
+.top-wrap{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+}
+.top li{
+    width: 12.5%;
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none; 
+}
+#role{
+    background: #00c3ff;
+}
+.top-wrap li .top-btn {
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 50px;
+    color: white;
+    border: 2px solid #00c3ff;
+    background: rgba(0,0,0,0.25);
+    border-radius: 10px;
+    transform: skew(-10deg);
+    line-height: 50px;
+    box-sizing: content-box;
+    transition: 0.3s;
+}
+.top-wrap a:hover .top-btn{
+    border: 2px solid #ffc300;
+}
+.top-wrap a:active .top-btn{
+    background: #00c3ff;
+}
+.top-wrap li .top-btn text{
+    display: block;
+    transform: skew(10deg);
+}
+
+#main{
+    position: relative;
+    display: block;
+    top: 0;
+}
+#section-1{
+    background: url(imges/bg.jpg) #00c3ff no-repeat;
+    background-size: auto 1000px;
+    background-position: top center;
+    color: white;
+    height: auto;
+    min-height: 880px;
+}
+section{
+    position: relative;
+    display: block;
+    min-width: 1024px;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#section-1 .wrap{
+    width: 100%;
+    min-width: 1024px;
+    padding-top: 100px;
+}
+section .wrap{
+    position: relative;
+    margin: 0 auto;
+}
+#section-1 h1{
+    font-size: 3rem;
+    /* opacity: 0; */
+}
+.iflyfromleft{
+    -webkit-animation: iflyfromleft 0.5s ease 0s 1 forwards;
+}
+h1{
+    transform: skew(-.17rad);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+#section-1 h2{
+    font-size: 1rem;
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
+    font-family: impact;
+    transform: skew(-10deg);
+    /* opacity: 0; */
+}
+#section-1 p{
+    font-size: 1.4rem;
+    margin-top: 20px;    
+}
+.flyfromleft{
+    -webkit-animation: flyfromleft 0.5s ease 0s 1 forwards;
+}
+p{
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+.avatar-wrapper .avatar-list{
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1600px;
+    margin: 20px auto;
+}
+.avatar-list li{
+    display: inline-block;
+    width: 220px;
+    height: 308px;
+    border: 3px solid white;
+    border-radius: 16px;
+    margin: 5px;
+    list-style: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: content-box;
+}
+.acatar-li{
+    -webkit-animation: fadeIn 0.2s linear 0s 1 forwards;
+}
+ul.avatar-list li:hover{
+    transform: scale(1.1,1.1);
+    opacity: 1;
+}
+.card{
+    width: 220px;
+    height: 272px;
+}
+.card-name{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    background: white;
+    color: #000;
+}
+#youxia{
+    background: url(imges/kiana_yx.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#bailian{
+    background: url(imges/kiana_bl.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shengnv{
+    background: url(imges/kiana_sn.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yueguang{
+    background: url(imges/kiana_yg.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#nvwang{
+    background: url(imges/kiana_nw.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#feihong{
+    background: url(imges/mei_fh.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yingwu{
+    background: url(imges/mei_yw.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#qiangxi{
+    background: url(imges/mei_qx.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#guikai{
+    background: url(imges/mei_gk.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#zhanche{
+    background: url(imges/bronya_zc.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shanchui{
+    background: url(imges/bronya_shch.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#xuedi{
+    background: url(imges/bronya_xd.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yinlang{
+    background: url(imges/bronya_yl.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#ciyuan{
+    background: url(imges/bronya_cy.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#heiya{
+    background: url(imges/bronya_hy.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#jifeng{
+    background: url(imges/himeko_jf.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shenhong{
+    background: url(imges/himeko_shh.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#kaixuan{
+    background: url(imges/himeko_kx.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#bingji{
+    background: url(imges/himeko_bj.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#meigui{
+    background: url(imges/himeko_mg.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#zhenhong{
+    background: url(imges/himeko_zhh.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#xunyu{
+    background: url(imges/fuka_xy.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#baiye{
+    background: url(imges/fuka_by.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#chiling{
+    background: url(imges/fuka_chl.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yuelun{
+    background: url(imges/fuka_yl.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shiyue{
+    background: url(imges/theresa_sy.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#huosha{
+    background: url(imges/theresa_hs.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yuexia{
+    background: url(imges/theresa_yx.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#ziyuan{
+    background: url(imges/theresa_zy.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shenen{
+    background: url(imges/theresa_she.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#jinxiang{
+    background: url(imges/kallen_jx.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yuanzui{
+    background: url(imges/kallen_yz.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#bingka{
+    background: url(imges/kallen_bk.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#shengba{
+    background: url(imges/Sakura_sb.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yanba{
+    background: url(imges/sakura_yb.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#wuwang{
+    background: url(imges/Sakura_ww.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#qiangwei{
+    background: url(imges/rita_aqw.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#yingtie{
+    background: url(imges/rita_yt.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#bingxiang{
+    background: url(imges/rita_yh.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#hongmao{
+    background: url(imges/rozaliya_hm.jpg) no-repeat;
+    background-size: auto 100%;
+}
+#lanmao{
+    background: url(imges/liliya_lm.jpg) no-repeat;
+    background-size: auto 100%;
+}
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    height: 120px;
+}
+.footer-center{
+    margin: 0 auto;
+    position: relative;
+    width: 1024px;
+    height: 120px;
+    z-index: 9000;
+}
+.footer-center p{
+    color: #999;
+    font-size: 12px;
+}
+.footer p{
+    line-height: 20px;
+}
+.footer-center a{
+    color: #999;
+    text-decoration: none;
+}
+.footer-center a:hover{
+    color: #fff;
+}
